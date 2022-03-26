@@ -1,0 +1,23 @@
+.header{
+    .mobile{
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 0;
+        @media (max-width:600px) {
+           display: flex;
+        }
+        .catalog,.search{
+            width: 50%;
+            z-index: 100;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h4{
+                margin-left: 14px;
+                margin-top: 14px;
+                margin-bottom: 14px;
+            }
+        }
+    }
+}

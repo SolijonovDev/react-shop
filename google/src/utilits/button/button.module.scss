@@ -1,0 +1,23 @@
+.btn{
+    width: 230px;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 50px;
+    background-color: #FFC85E;
+    outline: none;
+    border:1px solid #FFC85E;
+    color:#fff;
+    transition: all 500ms ease;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        margin-left: 15px;
+        width: 20px;
+        height: 20px;
+    }
+    &:hover{
+        background-color: darkgoldenrod;
+    }
+}
