@@ -1,0 +1,29 @@
+.navbar{
+    grid-area: n;
+    border-right: 1px solid rgba(0,0,0,.5);
+    margin-right: 10px;
+    @media (max-width:600px) {
+        display: none;
+    }
+    .brend{
+        h2{
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 500;
+            margin-bottom: 15px;
+            color:#111;
+        }
+        .brend_items{
+            .item{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                margin-left: -12px;
+                font-size: 14px;
+                line-height: 21px;
+                font-weight: 400;
+                color:#3F4E65;
+            }
+        }
+    }
+}

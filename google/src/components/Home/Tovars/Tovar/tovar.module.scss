@@ -1,0 +1,91 @@
+.tovar{
+    width: 22%;
+    padding: 29px 15px;
+    text-align: center;
+    position: relative;
+    transition: all 500ms ease-in;
+    margin-bottom: 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 39px -11px rgba(0, 0, 0, 0.06);
+    &:hover{
+        transform: scale(1.02);
+        box-shadow: 0 5px 5px rgba(0,0,0,.4);
+    }
+    .popular{
+        position: absolute;
+        top: 29px;
+        left: 15px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        background-color: #1FD85D;
+        color:#fff;
+        display: inline-block;
+    }
+    .photo{
+        margin-top: 26px;
+        height: 194px;
+        margin-bottom: 5px;
+    }
+    .ml{
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 400;
+        margin-bottom: 10px;
+        text-align: left;
+        img{
+            width: 9px;
+            height: 15px;
+            margin-right: 8px;
+        }
+
+    }
+    .title{
+        text-align: left;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .opisani{
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 300;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+    .bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 700;
+        }
+        button{
+            background-color: #FFC85E;
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            border-radius: 80px;
+            outline: none;
+            border:none;
+            color:#fff;
+            cursor: pointer;
+            border:1px solid #FFC85E;
+            transition: background-color 500ms ease-in;
+            &:hover{
+                background-color: transparent;
+                color:#FFC85E;
+                border:1px solid #FFC85E;
+            }
+            img{
+                height: 20px;
+                width: 25px;
+                margin-left: 10px;
+            }
+        }
+    }
+
+
+}

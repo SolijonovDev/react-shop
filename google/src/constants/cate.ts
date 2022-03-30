@@ -33,3 +33,67 @@ export const cate:ICate[]=[
     }
 
 ]
+
+interface ICateNames{
+    id:number;
+    name:string;
+    path:string;
+}
+
+export const CateNames:ICateNames[]=[
+    {
+        id:1,
+        name:"Уход за телом",
+        path:"/category"
+    },
+    {
+        id:2,
+        name:"Уход за руками",
+        path:"/category"
+    },
+    {
+        id:3,
+        name:"Уход за ногами",
+        path:"/category"
+    },
+    {
+        id:4,
+        name:"Уход за лицом",
+        path:"/category"
+    },
+    {
+        id:5,
+        name:"Уход за волосами",
+        path:"/category"
+    },
+    {
+        id:6,
+        name:"Средства для загара",
+        path:"/category"
+    },
+    {
+        id:7,
+        name:"Средства для бритья",
+        path:"/category"
+    },
+    {
+        id:8,
+        name:"Подарочные наборы",
+        path:"/category"
+    },
+    {
+        id:9,
+        name:"Гигиеническая продукция",
+        path:"/category"
+    },
+    {
+        id:10,
+        name:"Гигиена полости рта",
+        path:"/category"
+    },
+    {
+        id:11,
+        name:"Бумажная продукция",
+        path:"/category"
+    },
+]

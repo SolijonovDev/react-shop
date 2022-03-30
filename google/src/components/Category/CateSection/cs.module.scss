@@ -1,0 +1,148 @@
+$color-test:#3F4E65;
+$color-black:#111;
+$color-white:#fff;
+
+.section{
+    grid-area: s;
+    width: 100%;
+    padding-bottom: 203px;
+    .items{
+        width: 100%;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        margin:0 -16px;
+        @media (max-width:600px) {
+            margin: 0;
+            margin-bottom: 50px;
+        }
+        .item{
+            width: 22%;
+            margin-bottom: 20px;
+            padding: 42px 20px;
+            background-color: #fff;
+            box-shadow: 0px 14px 39px -11px rgba(0, 0, 0, 0.06);
+            border-radius: 10px;
+            @media (max-width:1350px) {
+                width: 30%;
+                padding: 35px 15px;
+            }
+            @media (max-width:950px) {
+                width: 45%;
+                padding: 25px 10px;
+            }
+            @media (max-width:450px) {
+                width: 100%;
+                padding: 25px 10px;
+            }
+            .img{
+                height: 194px;
+                text-align: center;
+                width: 100%;
+                margin-bottom: 5px;
+                img{
+                    width: auto;
+                    height: 100%;
+                }
+            }
+            .ml{
+                img{
+                    width: 9px;
+                    height: 15px;
+                    margin-right: 8px;
+                }
+                span{
+                    font-size: 12px;
+                    line-height: 15px;
+                    font-weight: 400;
+                    margin-bottom: 10px;
+                    color:$color-test;
+                }
+            }
+            .name{
+                font-size: 16px;
+                line-height: 20px;
+                font-weight: 500;
+                margin-bottom: 20px;
+                color:$color-black;
+                text-overflow: ellipsis;
+                height: 50px;
+                width: 100%;
+                white-space: nowrap; 
+                overflow: hidden;
+                text-overflow: ellipsis; 
+            }
+            p{
+                color:$color-test;
+                font-size: 14px;
+                line-height: 21px;
+                font-weight: 300;
+                white-space: nowrap; 
+                overflow: hidden;
+                text-overflow: ellipsis; 
+                span{
+                    color:$color-black;
+                    font-weight: 500;
+                }
+            }
+            .price{
+                margin-top: 15px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                span{
+                    color:$color-black;
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+                .btn{
+                    width: 60%;
+                    text-align: center;
+                    padding: 8px 0;
+                    border-radius: 50px;
+                    background-color: #FFC85E;
+                    outline: none;
+                    border:1px solid #FFC85E;
+                    color:#fff;
+                    transition: all 500ms ease;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    @media (max-width:600px) {
+                        width: 50%;
+                    }
+                    @media (max-width:600px) {
+                        width: 35%;
+                    }
+                    span{
+                        font-size: 10px;
+                        line-height: 12px;
+                        color:$color-white;
+                    }
+                    img{
+                        margin-left: 8px;
+                        width: 23px;
+                        height: 16px;
+                        @media (max-width:1200px) {
+                            width: 18px;
+                            height: 14px;
+                        }
+                    }
+                    &:hover{
+                        background-color: darkgoldenrod;
+                    }
+                }
+            }
+        }
+    }
+    .pagination{
+        margin-bottom: 76px;
+    }
+    .text{
+        width: 100%;
+    }
+}

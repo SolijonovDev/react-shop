@@ -13,7 +13,7 @@ export const userReducer=(state=initialState,action:UserAction):UserState=>{
               return state
           }
           case userActionTypes.USER_LOADING:{
-              return {...state,loading:action.loading}
+              return {...state,loading:action.payload}
           }
           default:
               return state

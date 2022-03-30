@@ -17,7 +17,7 @@ export interface UserAdd{
 
 export interface UserLoading{
     type:userActionTypes.USER_LOADING;
-    loading:false
+    payload:boolean
 }
 
 export type UserAction=UserAdd | UserLoading
